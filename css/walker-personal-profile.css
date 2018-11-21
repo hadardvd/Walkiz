@@ -1,0 +1,33 @@
+@import "header&footer.css";
+
+html{
+    font-family: Calibri, sans-serif;
+}
+
+.main{
+    background-image: url("../img/dog-walker-background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+.walker-profile-button{
+    background-color: #b0eed4;
+    display: inline-block;
+    width:  300px;
+    height: 300px;
+    text-align: center;
+    margin: 40px;
+
+    border-radius: 18px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Calibri, sans-serif;
+
+}
+
+.wrapper{
+    text-align: center;
+    margin: 50px;
+}

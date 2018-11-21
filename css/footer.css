@@ -1,0 +1,44 @@
+html{
+    font-family: Calibri, sans-serif;
+}
+.block1{
+    width: 45%;
+    display: inline-block;
+    color: #a6a6a6;
+}
+
+.footer-info{
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.block2{
+    width: 45%;
+    display: inline-block;
+    border-left: solid;
+    padding-bottom: 40px;
+    color: #a6a6a6;
+}
+
+#phone\ icon{
+    position: relative;
+    top: 9px;
+}
+#contact-head{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+#about\ us{
+    position: relative;
+    bottom: 33px;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+#rights{
+    background-color: black;
+    font-size: xx-small;
+    color: whitesmoke;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+@import "header&footer.css";
+html{
+    font-family: Calibri, sans-serif;
+}
+body{
+    font-family: Calibri;
+    background-color: ghostwhite;
+    background-image: url("../img/gray-clipart-paw-print-4.png");
+    background-repeat: no-repeat;
+    background-size:25%;
+    background-position: bottom;
+    background-position: left;
+
+
+
+}
+.schedule{
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 600px;
+    margin-left: 420px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+    font-family: Calibri, sans-serif;
+
+}
+
+.days{
+    background-color: white;
+    margin: 0px;
+    padding: 5px;
+
+
+}
+.day {
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    font-size: 24px;
+
+
+    }
+
+.hours{
+    display: inline-block;
+    background-color: white;
+
+}
+#schedule-headline{
+    padding-top: 28px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #a6a6a6;
+
+}
+
+label{
+    color: #a6a6a6;
+    text-align: center;
+    display:inline-block;
+    padding-left: 18px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+#button-update{
+    width: 405px;
+    height: 38px;
+    margin-top: 20px;
+    background-color:  #a6a6a6;
+    color: ghostwhite;
+    border-radius: 5px;
+}
+
+#button-update:hover{
+    background-color: black;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked+label{
+   background-color: #b0eed4;
+
+}
+
+label:hover{
+    background-color: #b0eed4;
+}

@@ -1,0 +1,50 @@
+@import "header&footer.css";
+
+body{
+    font-family: Arial,sans-serif;
+
+
+
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+/************main**************/
+.main{
+
+margin-bottom: 50px;
+
+}
+.card {
+    position: relative;
+    margin: auto;
+    top: 20px;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    float: inside;
+
+    text-align: center;
+    background-color: #b0eed4;
+    padding: 10px;
+}
+
+
+.id-img {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    width: 70%;
+}
+.checked {
+    color: orange;
+}
+/************footer**************/
+
+
